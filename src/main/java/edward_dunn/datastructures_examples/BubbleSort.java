@@ -2,7 +2,7 @@ package edward_dunn.datastructures_examples;
 
 public class BubbleSort {
 
-	static void bubbleSort(int[] numArray) {
+	public int[] bubbleSort(int[] numArray) {
 		int n = numArray.length;
 		int tempValue = 0;
 
@@ -23,6 +23,8 @@ public class BubbleSort {
 			}
 
 		}
+		
+		return numArray;
 	}
 
 	public static void main(String[] args) {
@@ -37,7 +39,8 @@ public class BubbleSort {
 		System.out.println();
 		
 		//sort array 
-		bubbleSort(numArray);
+		BubbleSort bs = new BubbleSort();
+		numArray = bs.bubbleSort(numArray);
 		
 		System.out.println("Array After Bubble Sort");
 
