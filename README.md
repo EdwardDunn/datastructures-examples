@@ -3,7 +3,7 @@ This project is designed to show CS students the implementation of some of the m
 
 ## Current Examples
 - Bubble Sort
-- (more to be implemented in the coming days)
+- Singly Linked List
 
 ## Installation
 - Maven
