@@ -4,6 +4,7 @@ This project is designed to show CS students the implementation of some of the m
 ## Current Examples
 - Bubble Sort
 - Singly Linked List
+- Stack
 
 ## Installation
 - Maven
